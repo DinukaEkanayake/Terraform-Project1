@@ -1,6 +1,3 @@
-provider "aws" {
-  region = "us-east-1"
-}
 
 resource "aws_dynamodb_table" "terraform_lock" {
   name = var.name_value
